@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en" ng-app="angularDemo">
+<head>
+    <meta charset="UTF-8">
+    <title>Angular Demo</title>
+    <script src="lib/angular/angular.min.js"></script>
+    <script src="lib/angular/js/controller.js"></script>
+</head>
+<body>
+    <div ng-controller = 'controller'>
+    <div class='main' ng-controller='controller'>
+        <ul class='artistList'>
+            <li class="artist cf" ng-repeat="item in artists">
+                <img style="height:300px; width:170px;"src="/lib/angular/images/{{item.shortname}}_tn.jpg" alt="Photo of my beautiful wife">
+                <div class="info">
+                    <h2>{{item.name}}</h2>
+                    <h3>{{item.reknown}}</h3>
+                </div>
+            </li>
+        </ul>
+    </div>
+    
+</body>
+</html>
