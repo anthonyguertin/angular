@@ -9,9 +9,10 @@
 <body>
     <div ng-controller = 'controller'>
     <div class='main' ng-controller='controller'>
+        <input type='text' placeholder="search for..." ng-model="query">
         <ul class='artistList'>
-            <li class="artist cf" ng-repeat="item in artists">
-                <img style="height:300px; width:170px;"src="/lib/angular/images/{{item.shortname}}_tn.jpg" alt="Photo of my beautiful wife">
+            <li class="artist cf" ng-repeat="item in artists | filter: query">
+                <img style="height:300px; width:170px;"src="/lib/angular/images/{{item.shortname}}_tn.jpg" alt="Photos of husband and wife.">
                 <div class="info">
                     <h2>{{item.name}}</h2>
                     <h3>{{item.reknown}}</h3>

@@ -4,6 +4,23 @@
         "shortname" : "jourdan_guertin",
         "reknown" : "Beautiful loving wife",
         "bio" : "cutie from argonia"
+    },
+    {
+        "name" : "Anthony Guertin",
+        "shortname" : "anthony_guertin",
+        "reknown" : "ugly husband",
+        "bio" : "hideous man from argonia"
+    },
+    {
+        "name" : "Ronald Guertin",
+        "shortname" : "ronald_guertin",
+        "reknown" : "ugly father",
+        "bio" : "hideous man from argonia"
+    },
+    {
+        "name" : "Dana Guertin",
+        "shortname" : "dana_guertin",
+        "reknown" : "beautiful mom",
+        "bio" : "beautiful woman from argonia"
     }
-    
 ]
